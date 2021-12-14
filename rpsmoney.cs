@@ -1,3 +1,5 @@
+//Warning: my first plugin. Can be way better. Commented some ways to make this way better.
+
 using System;
 using MCGalaxy;
 using MCGalaxy.Commands;
@@ -43,7 +45,7 @@ public override void Use(Player commandUser, string args) {
 	//1 is rock, 2 paper, 3 scisors
 
 
-
+//Use switch case
 	if (commandUser.money >= 10) {
 
 	Random random = new Random();
